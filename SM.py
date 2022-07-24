@@ -664,7 +664,6 @@ class sxp_call: # Spam Call 1 Otp
 		self.call(nomor)
 
 if __name__ == "__main__":
-try:os.system('git pull')
 	try:
 		Main()
 	except KeyboardInterrupt:
