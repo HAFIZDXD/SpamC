@@ -136,14 +136,14 @@ class Main:
 			os.system("xdg-open https://wa.me/6285758862225")
 			input(f"     {red}> {white}𝚃𝙴𝙺𝙰𝙽 𝙴𝙽𝚃𝙴𝚁 𝚄𝙽𝚃𝚄𝙺 𝙺𝙴𝙼𝙱𝙰𝙻𝙸 𝙺𝙴 𝙼𝙴𝙽𝚄 ")
 			print()
-			os.system("python sms.py")
+			os.system("python SM.py")
 		elif sanz == "3" or sanz == "03":
 			print(f"\n     {red}! {white}jembot")
 			# Ganti link fb nya v
 			print("{white}NGENTOD SAMA ANIMEK AJAH SANA AJG")
 			input(f"     {red}> {white}𝚃𝙴𝙺𝙰𝙽 𝙴𝙽𝚃𝙴𝚁 𝚄𝙽𝚃𝚄𝙺 𝙺𝙴𝙼𝙱𝙰𝙻𝙸 𝙺𝙴 𝙼𝙴𝙽𝚄 ")
 			print()
-			os.system("python sms.py")
+			os.system("python SM.py")
 		elif sanz == "4" or sanz == "04":
 			exit(f"\n     {red}! {white}Exit This Tools..\n")
 		else:
