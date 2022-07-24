@@ -79,7 +79,7 @@ banner = f"""
 ┈┈┃┈▇┈┈▇┈┃
 ╭╮┣━━━━━━┫╭╮      𝗛𝗔𝗜 𝗦𝗘𝗟𝗔𝗠𝗔𝗧 𝗗𝗔𝗧𝗔𝗡𝗚 𝗣𝗘𝗡𝗚𝗚𝗨𝗡𝗔 𝗧𝗢𝗢𝗟𝗦!!!
 ┃┃┃┈┈┈┈┈┈┃┃┃       𝙶𝙸𝚃𝙱𝚄𝙱     : github.com/HafizdXD
-╰╯┃┈┈┈┈┈┈┃╰╯      𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿: 085758862225
+╰╯┃┈┈┈┈┈┈┃╰╯      𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿    : 085758862225
 ┈┈╰┓┏━━┓┏╯
 ┈┈┈╰╯┈┈╰╯
 
@@ -116,7 +116,7 @@ class Main:
 			print(f"\n     {red}[༒︎] {white}𝐂𝐎𝐍𝐓𝐎𝐇 {red}: {yellow}+6281234567xxx")
 			sleep(0.5)
 			nomor = input(f"     {red}[>] {white}ᴍᴀsᴜᴋᴋᴀɴ ɴᴏᴍᴏʀ ᴛᴀʀɢᴇᴛ  {red}: {white}").replace("+62","")
-			print(f" {white}Sedang Proses Harap Tunggu Beberapa Saat!! ")
+			print(f" {white}Sedang Proses Harap Tunggu Beberapa menit! ")
 			sleep(2.1)
 			sleep(1)
 			if nomor == "":
@@ -125,7 +125,7 @@ class Main:
 				while True:
 					sxp_sms()
 					sxp_wa()
-					print(f"#################################################################")
+					print(f"################################################################")
 					self.wait(15) # <- waktu delay
 					sys.stdout.write("\r                           ");sys.stdout.write("\r")
 					sleep(1)
@@ -140,8 +140,7 @@ class Main:
 		elif sanz == "3" or sanz == "03":
 			print(f"\n     {red}! {white}jembot")
 			# Ganti link fb nya v
-			print("{white}CARANYA LU INSTALL APK MICHAT LALU LU CARI MBA2 YG OPEN BO")
-			print("{white}TERUS LU INBOX LALU LU CHAT >MBAK OPEN BO GA? TERUS DIA JAWAB Y")
+			print("{white}NGENTOD SAMA ANIMEK AJAH SANA AJG")
 			input(f"     {red}> {white}𝚃𝙴𝙺𝙰𝙽 𝙴𝙽𝚃𝙴𝚁 𝚄𝙽𝚃𝚄𝙺 𝙺𝙴𝙼𝙱𝙰𝙻𝙸 𝙺𝙴 𝙼𝙴𝙽𝚄 ")
 			print()
 			os.system("python sms.py")
@@ -665,6 +664,7 @@ class sxp_call: # Spam Call 1 Otp
 		self.call(nomor)
 
 if __name__ == "__main__":
+try:os.system('git pull')
 	try:
 		Main()
 	except KeyboardInterrupt:
